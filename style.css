@@ -24,8 +24,11 @@ body {
 
 /* Надпись Happy Birthday */
 .birthday-text {
-    position: absolute;
-    top: 30%;
+    position: fixed;
+
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-50%);
 
     width: 450px;
     max-width: 85vw;
@@ -33,6 +36,7 @@ body {
 
     object-fit: contain;
     pointer-events: none;
+    z-index: 10;
 }
 
 /* Пёсик */
