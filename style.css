@@ -53,3 +53,10 @@ body {
     image-rendering: pixelated;
     pointer-events: none;
 }
+
+@media (max-width: 600px) {
+    .birthday-text {
+        top: 15%;
+        width: 85vw;
+    }
+}
