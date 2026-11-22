@@ -25,7 +25,7 @@ body {
 /* Надпись Happy Birthday */
 .birthday-text {
     position: absolute;
-    top: 15%;
+    top: 30%;
 
     width: 450px;
     max-width: 85vw;
@@ -52,11 +52,4 @@ body {
 
     image-rendering: pixelated;
     pointer-events: none;
-}
-
-@media (max-width: 600px) {
-    .birthday-text {
-        top: 15%;
-        width: 85vw;
-    }
 }
